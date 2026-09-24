@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">SSH Protocol</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_logs">Logs</string>
+    <string name="nav_settings">Settings</string>
+    <string name="state_disconnected">DISCONNECTED</string>
+    <string name="state_connected">CONNECTED (SSH + VPN)</string>
+    <string name="traffic_format">Download %1$s • Upload %2$s</string>
+    <string name="traffic_download">Download</string>
+    <string name="traffic_upload">Upload</string>
+    <string name="traffic_zero">0 B</string>
+    <string name="vpn_not_active">Android VPN not active</string>
+    <string name="vpn_starting">Starting Android VPN</string>
+    <string name="vpn_active_detail">SSH, local SOCKS5, Android TUN and tun2socks are active.</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_stop">Stop</string>
+    <string name="profiles_subtitle">Select, create and configure SSH profiles</string>
+    <string name="action_new">New</string>
+    <string name="action_delete">Delete</string>
+    <string name="profile_name">Profile name</string>
+    <string name="ssh_host">SSH host</string>
+    <string name="ssh_port">SSH port</string>
+    <string name="ssh_username">SSH username</string>
+    <string name="ssh_password">SSH password</string>
+    <string name="custom_payload">Custom Payload</string>
+    <string name="payload">Payload</string>
+    <string name="proxy_transport_host">Proxy / transport host</string>
+    <string name="proxy_transport_port">Proxy / transport port</string>
+    <string name="tls_sni">TLS / SNI</string>
+    <string name="sni">SNI</string>
+    <string name="local_socks5_port">Local SOCKS5 port</string>
+    <string name="keepalive_seconds">Keepalive seconds (0 = disabled)</string>
+    <string name="auto_reconnect">Auto reconnect</string>
+    <string name="auto_reconnect_note">Auto reconnect is stored but becomes active only after the reconnect stage is implemented.</string>
+    <string name="action_save">Save</string>
+    <string name="logs_subtitle">Tunnel activity and connection errors</string>
+    <string name="action_clear_logs">Clear logs</string>
+    <string name="action_copy_logs">Copy logs</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="language_system">System</string>
+    <string name="language_indonesian">Indonesia</string>
+    <string name="language_english">English</string>
+    <string name="vpn_permission_required">VPN permission is required</string>
+    <string name="clipboard_logs_label">SSH Protocol logs</string>
+    <string name="logs_copied">Logs copied</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="unknown_ssh_host_key">Unknown SSH host key</string>
+    <string name="host_key_unknown_message">Host: %1$s:%2$d\nAlgorithm: %3$s\n\nSHA-256 fingerprint:\n%4$s\n\nVerify this fingerprint with the server administrator before trusting it.</string>
+    <string name="action_reject">Reject</string>
+    <string name="action_trust_reconnect">Trust &amp; Reconnect</string>
+    <string name="unable_trust_host_key">Unable to trust SSH host key</string>
+    <string name="known_host_persistence_failed">Known-host persistence failed</string>
+    <string name="ssh_host_key_mismatch">SSH host key mismatch</string>
+    <string name="host_key_mismatch_message">Connection rejected.\n\nHost: %1$s:%2$d\n\nTrusted fingerprint:\n%3$s\n\nReceived fingerprint:\n%4$s\n\nThe trusted key was NOT replaced.</string>
+    <string name="invalid_profile">Invalid profile</string>
+    <string name="unable_save_profile">Unable to save profile</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="field_must_be_number">%1$s must be a number</string>
+    <string name="field_proxy_port">Proxy port</string>
+    <string name="field_socks_port">SOCKS port</string>
+    <string name="field_keepalive">Keepalive</string>
+    <string name="unable_load_profiles">Unable to load profiles</string>
+    <string name="ssh_host_not_set">SSH host not set</string>
+    <string name="profile_fallback_name">profile</string>
+    <string name="delete_profile_title">Delete profile</string>
+    <string name="delete_profile_message">Delete \"%1$s\"?</string>
+    <string name="profile_deleted">Profile deleted</string>
+    <string name="unable_delete_profile">Unable to delete profile</string>
+    <string name="unable_load_profile">Unable to load profile</string>
+    <string name="action_create">Create</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="create_profile_title">Add profile</string>
+    <string name="profile_name_required">Profile name is required</string>
+    <string name="profile_created">Profile created</string>
+    <string name="home_profiles_subtitle">Select a profile or edit its SSH configuration</string>
+    <string name="edit_configuration">Edit configuration</string>
+    <string name="profile_not_configured">Not configured</string>
+    <string name="no_profiles_title">No profiles yet</string>
+    <string name="no_profiles_message">Create a profile first to configure your SSH connection.</string>
+    <string name="create_profile_action">Create profile</string>
+    <string name="no_profile_selected">Create and select a profile first.</string>
+    <string name="home_tagline">Secure connection, more open internet</string>
+    <string name="connection_status">CONNECTION STATUS</string>
+    <string name="connection_hint">Enable it to route internet traffic.</string>
+    <string name="action_add_profile">+  Add</string>
+
+    <string name="config_dialog_intro">Configure the SSH endpoint, transport, and connection behavior for this profile.</string>
+    <string name="config_section_ssh">SSH connection</string>
+    <string name="config_section_ssh_description">Server address and credentials used to establish the SSH session.</string>
+    <string name="config_section_transport">Transport</string>
+    <string name="config_section_transport_description">Optional transport layers. Enable only the features required by your server.</string>
+    <string name="custom_payload_description">Use a custom payload and optional upstream proxy before the SSH session starts.</string>
+    <string name="tls_sni_description">Wrap the transport with TLS and provide an SNI hostname when required.</string>
+    <string name="payload_mode_normal">Normal</string>
+    <string name="payload_mode_enhanced">Enhanced</string>
+    <string name="config_section_advanced">Advanced settings</string>
+    <string name="config_section_advanced_description">Local tunnel and session maintenance settings.</string>
+    <string name="keepalive_short">Keepalive (sec)</string>
+    <string name="connection_ports_note">SOCKS5 is the local proxy port. Set keepalive to 0 to disable it.</string>
+    <string name="action_save_changes">Save changes</string>
+
+    <string name="logs_card_title">Application log</string>
+    <string name="log_count_empty">0 logs</string>
+    <string name="logs_empty_title">No activity yet</string>
+    <string name="logs_empty_message">Connection activity and errors will appear here.</string>
+    <plurals name="log_count">
+        <item quantity="one">%d log</item>
+        <item quantity="other">%d logs</item>
+    </plurals>
+    <string name="socket_buffer_size">Socket Buffer Size</string>
+    <string name="socket_buffer_size_description">Controls the TCP socket send and receive buffer size.</string>
+    <string name="socket_send_buffer_size">Send Buffer</string>
+    <string name="socket_receive_buffer_size">Receive Buffer</string>
+    <string name="socket_buffer_size_note">Advanced setting. Default: Send 16384, Receive 32768.</string>
+    <string name="tcp_no_delay">TCP No Delay</string>
+    <string name="tcp_no_delay_description">Disables Nagle\'s algorithm on the upstream TCP socket to send small packets without waiting for aggregation.</string>
+    <string name="max_reconnect">Max Reconnect</string>
+    <string name="max_reconnect_description">Limits how many reconnect attempts are allowed during one connection session.</string>
+    <string name="max_reconnect_helper">0 = unlimited reconnect attempts.</string>
+    <string name="cpu_wake_lock">CPU Wake Lock</string>
+    <string name="cpu_wake_lock_description">Keeps the CPU awake while this tunnel profile has an active session, including reconnect attempts.</string>
+    <string name="http_ping">HTTP Ping</string>
+    <string name="http_ping_description">Measures HTTP request latency through the active VPN tunnel while connected.</string>
+    <string name="http_ping_url">HTTP Ping URL</string>
+    <string name="http_ping_default_url">https://clients3.google.com/generate_204</string>
+    <string name="http_ping_interval">Ping interval (seconds)</string>
+    <string name="http_ping_interval_description">Time between HTTP Ping requests. Minimum 1 second.</string>
+    <string name="http_ping_default_interval">10</string>
+    <string name="settings_subtitle">Personalize the app and configure global tunnel utilities.</string>
+    <string name="appearance_description">Choose how SSH Protocol follows your device theme.</string>
+    <string name="language_description">Choose the language used throughout the application.</string>
+    <string name="http_ping_url_description">Endpoint used to measure HTTP request latency through the active VPN tunnel.</string>
+    <string name="http_ping_behavior">Runs only while the tunnel is connected. Ping failures do not disconnect SSH or VPN.</string>
+    <string name="seconds_short">sec</string>
+    <string name="exit_confirmation_message">Are you sure you want to exit the application?</string>
+    <string name="action_exit">Exit</string>
+    <string name="tls_version">TLS Version</string>
+
+    <string-array name="tls_version_labels">
+        <item>Default</item>
+        <item>TLS 1.0</item>
+        <item>TLS 1.1</item>
+        <item>TLS 1.2</item>
+        <item>TLS 1.3</item>
+    </string-array>
+
+    <string-array name="tls_version_values">
+        <item>default</item>
+        <item>tls_1_0</item>
+        <item>tls_1_1</item>
+        <item>tls_1_2</item>
+        <item>tls_1_3</item>
+    </string-array>
+    <string name="home_duration">Duration</string>
+    <string name="home_duration_zero">00:00:00</string>
+    <string name="home_network">Network</string>
+    <string name="home_network_wifi">Wi-Fi</string>
+    <string name="home_network_cellular">Cellular</string>
+    <string name="home_network_ethernet">Ethernet</string>
+    <string name="home_network_other">Other</string>
+    <string name="home_device_ip">Device IP</string>
+    <string name="home_ip_unavailable">—</string>
+    <string name="home_protocol">Protocol</string>
+    <string name="home_protocol_ssh">SSH</string>
+
+    <string name="profile_imported">Profile imported</string>
+    <string name="unable_import_profile">Unable to import profile</string>
+
+    <string name="crash_report_title">Application error</string>
+    <string name="crash_report_clip_label">SSHProtocol crash report</string>
+    <string name="crash_report_copied">Crash report copied</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_close">Close</string>
+    <string name="action_share">Share</string>
+    <string name="share_profile">Share profile</string>
+    <string name="unable_share_profile">Unable to share profile</string>
+    <string name="profile_import_busy">Stop the tunnel before importing a profile</string>
+    <string name="profile_proxy_enabled">Enable proxy</string>
+    <string name="profiles_empty">No profiles yet</string>
+    <string name="profile_unnamed">Unnamed profile</string>
+    <string name="about_title">About</string>
+    <string name="about_summary">Application information</string>
+    <string name="about_app_description">VPN Protocol provides an SSH-based Android VPN tunnel with configurable transport, payload, proxy and TLS/SNI support.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_description">Application information and version</string>
+    <string name="profiles_search_hint">Search profiles</string>
+    <string name="profiles_list_view">List view</string>
+    <string name="profiles_grid_view">Grid view</string>
+    <string name="profile_duplicate">Duplicate</string>
+    <string name="profile_delete">Delete</string>
+    <string name="profile_set_active">Set active</string>
+    <string name="profile_active">Active</string>
+    <string name="profile_empty_title">No profiles yet</string>
+    <string name="profile_empty_message">Create a profile to configure your SSH tunnel.</string>
+    <string name="profile_create">Create profile</string>
+    <string name="profile_duplicated">Profile duplicated</string>
+    <string name="profile_delete_confirm">Delete profile "%1$s"?</string>
+    <string name="profile_copy_name">%1$s Copy</string>
+    <string name="profile_add_favorite">Add to favorites</string>
+    <string name="profile_remove_favorite">Remove from favorites</string>
+    <string name="profile_pin">Pin profile</string>
+    <string name="profile_unpin">Unpin profile</string>
+    <string name="profile_more_actions">More profile actions</string>
+    <string name="profile_more_actions_symbol">⋮</string>
+    <string name="profile_import">Import</string>
+    <string name="profile_export">Export .vp</string>
+    <string name="profile_export_failed">Unable to export profile</string>
+    <string name="profiles_import_result">Imported %1$d profile(s); %2$d failed</string>
+    <plurals name="profiles_imported_count">
+        <item quantity="one">%d profile imported</item>
+        <item quantity="other">%d profiles imported</item>
+    </plurals>
+    <string name="profiles_filter_all">All</string>
+    <string name="profiles_filter_favorite">Favorites</string>
+    <string name="profiles_filter_pinned">Pinned</string>
+    <string name="profiles_filter_active">Active</string>
+</resources>

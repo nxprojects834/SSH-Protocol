@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">SSH Protocol</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_profiles">Profil</string>
+    <string name="nav_logs">Log</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="state_disconnected">TERPUTUS</string>
+    <string name="state_connected">TERHUBUNG (SSH + VPN)</string>
+    <string name="traffic_format">Unduh %1$s • Unggah %2$s</string>
+    <string name="traffic_download">Unduh</string>
+    <string name="traffic_upload">Unggah</string>
+    <string name="traffic_zero">0 B</string>
+    <string name="vpn_not_active">VPN Android tidak aktif</string>
+    <string name="vpn_starting">Memulai VPN Android</string>
+    <string name="vpn_active_detail">SSH, SOCKS5 lokal, TUN Android, dan tun2socks aktif.</string>
+    <string name="action_connect">Hubungkan</string>
+    <string name="action_stop">Hentikan</string>
+    <string name="profiles_subtitle">Pilih, buat, dan konfigurasi profil SSH</string>
+    <string name="action_new">Baru</string>
+    <string name="action_delete">Hapus</string>
+    <string name="profile_name">Nama profil</string>
+    <string name="ssh_host">Host SSH</string>
+    <string name="ssh_port">Port SSH</string>
+    <string name="ssh_username">Nama pengguna SSH</string>
+    <string name="ssh_password">Kata sandi SSH</string>
+    <string name="custom_payload">Payload Kustom</string>
+    <string name="payload">Payload</string>
+    <string name="proxy_transport_host">Host proxy / transport</string>
+    <string name="proxy_transport_port">Port proxy / transport</string>
+    <string name="tls_sni">TLS / SNI</string>
+    <string name="sni">SNI</string>
+    <string name="local_socks5_port">Port SOCKS5 lokal</string>
+    <string name="keepalive_seconds">Keepalive detik (0 = dinonaktifkan)</string>
+    <string name="auto_reconnect">Hubungkan ulang otomatis</string>
+    <string name="auto_reconnect_note">Hubungkan ulang otomatis disimpan, tetapi baru aktif setelah tahap reconnect diimplementasikan.</string>
+    <string name="action_save">Simpan</string>
+    <string name="logs_subtitle">Aktivitas tunnel dan kesalahan koneksi</string>
+    <string name="action_clear_logs">Bersihkan log</string>
+    <string name="action_copy_logs">Salin log</string>
+    <string name="appearance">Tampilan</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="language_system">Sistem</string>
+    <string name="language_indonesian">Indonesia</string>
+    <string name="language_english">Inggris</string>
+    <string name="vpn_permission_required">Izin VPN diperlukan</string>
+    <string name="clipboard_logs_label">Log SSH Protocol</string>
+    <string name="logs_copied">Log disalin</string>
+    <string name="connection_failed">Koneksi gagal</string>
+    <string name="unknown_ssh_host_key">Kunci host SSH tidak dikenal</string>
+    <string name="host_key_unknown_message">Host: %1$s:%2$d\nAlgoritma: %3$s\n\nFingerprint SHA-256:\n%4$s\n\nVerifikasi fingerprint ini dengan administrator server sebelum mempercayainya.</string>
+    <string name="action_reject">Tolak</string>
+    <string name="action_trust_reconnect">Percayai &amp; Hubungkan Ulang</string>
+    <string name="unable_trust_host_key">Tidak dapat mempercayai kunci host SSH</string>
+    <string name="known_host_persistence_failed">Penyimpanan known-host gagal</string>
+    <string name="ssh_host_key_mismatch">Kunci host SSH tidak cocok</string>
+    <string name="host_key_mismatch_message">Koneksi ditolak.\n\nHost: %1$s:%2$d\n\nFingerprint tepercaya:\n%3$s\n\nFingerprint diterima:\n%4$s\n\nKunci tepercaya TIDAK diganti.</string>
+    <string name="invalid_profile">Profil tidak valid</string>
+    <string name="unable_save_profile">Tidak dapat menyimpan profil</string>
+    <string name="profile_saved">Profil disimpan</string>
+    <string name="field_must_be_number">%1$s harus berupa angka</string>
+    <string name="field_proxy_port">Port proxy</string>
+    <string name="field_socks_port">Port SOCKS</string>
+    <string name="field_keepalive">Keepalive</string>
+    <string name="unable_load_profiles">Tidak dapat memuat profil</string>
+    <string name="ssh_host_not_set">Host SSH belum diatur</string>
+    <string name="profile_fallback_name">profil</string>
+    <string name="delete_profile_title">Hapus profil</string>
+    <string name="delete_profile_message">Hapus \"%1$s\"?</string>
+    <string name="profile_deleted">Profil dihapus</string>
+    <string name="unable_delete_profile">Tidak dapat menghapus profil</string>
+    <string name="unable_load_profile">Tidak dapat memuat profil</string>
+    <string name="action_create">Buat</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_cancel">Batal</string>
+    <string name="create_profile_title">Tambah profil</string>
+    <string name="profile_name_required">Nama profil wajib diisi</string>
+    <string name="profile_created">Profil dibuat</string>
+    <string name="home_profiles_subtitle">Pilih profil atau edit konfigurasi SSH</string>
+    <string name="edit_configuration">Edit konfigurasi</string>
+    <string name="profile_not_configured">Belum dikonfigurasi</string>
+    <string name="no_profiles_title">Belum ada profil</string>
+    <string name="no_profiles_message">Buat profil terlebih dahulu untuk mengatur koneksi SSH.</string>
+    <string name="create_profile_action">Buat profil</string>
+    <string name="no_profile_selected">Buat dan pilih profil terlebih dahulu.</string>
+    <string name="home_tagline">Koneksi aman, internet lebih bebas</string>
+    <string name="connection_status">STATUS KONEKSI</string>
+    <string name="connection_hint">Aktifkan untuk meneruskan trafik internet.</string>
+    <string name="action_add_profile">+  Tambah</string>
+
+    <string name="config_dialog_intro">Atur endpoint SSH, transport, dan perilaku koneksi untuk profil ini.</string>
+    <string name="config_section_ssh">Koneksi SSH</string>
+    <string name="config_section_ssh_description">Alamat server dan kredensial yang digunakan untuk membuat sesi SSH.</string>
+    <string name="config_section_transport">Transport</string>
+    <string name="config_section_transport_description">Lapisan transport opsional. Aktifkan hanya fitur yang dibutuhkan server.</string>
+    <string name="custom_payload_description">Gunakan payload kustom dan proxy upstream opsional sebelum sesi SSH dimulai.</string>
+    <string name="tls_sni_description">Gunakan TLS dan hostname SNI ketika transport server memerlukannya.</string>
+    <string name="payload_mode_normal">Normal</string>
+    <string name="payload_mode_enhanced">Enhanced</string>
+    <string name="config_section_advanced">Pengaturan lanjutan</string>
+    <string name="config_section_advanced_description">Pengaturan tunnel lokal dan pemeliharaan sesi.</string>
+    <string name="keepalive_short">Keepalive (dtk)</string>
+    <string name="connection_ports_note">SOCKS5 adalah port proxy lokal. Atur keepalive ke 0 untuk menonaktifkannya.</string>
+    <string name="action_save_changes">Simpan perubahan</string>
+
+    <string name="logs_card_title">Log aplikasi</string>
+    <string name="log_count_empty">0 log</string>
+    <string name="logs_empty_title">Belum ada aktivitas</string>
+    <string name="logs_empty_message">Aktivitas koneksi dan kesalahan akan muncul di sini.</string>
+    <plurals name="log_count">
+        <item quantity="one">%d log</item>
+        <item quantity="other">%d log</item>
+    </plurals>
+    <string name="socket_buffer_size">Ukuran Buffer Socket</string>
+    <string name="socket_buffer_size_description">Mengatur ukuran buffer kirim dan terima pada socket TCP.</string>
+    <string name="socket_send_buffer_size">Buffer Kirim</string>
+    <string name="socket_receive_buffer_size">Buffer Terima</string>
+    <string name="socket_buffer_size_note">Pengaturan lanjutan. Default: Kirim 16384, Terima 32768.</string>
+    <string name="tcp_no_delay">TCP No Delay</string>
+    <string name="tcp_no_delay_description">Menonaktifkan algoritma Nagle pada socket TCP upstream agar paket kecil dikirim tanpa menunggu penggabungan.</string>
+    <string name="max_reconnect">Maksimal Reconnect</string>
+    <string name="max_reconnect_description">Membatasi jumlah percobaan reconnect yang diizinkan selama satu sesi koneksi.</string>
+    <string name="max_reconnect_helper">0 = percobaan reconnect tanpa batas.</string>
+    <string name="cpu_wake_lock">CPU Wake Lock</string>
+    <string name="cpu_wake_lock_description">Menjaga CPU tetap aktif selama profil tunnel ini memiliki sesi aktif, termasuk saat mencoba menyambung ulang.</string>
+    <string name="http_ping">HTTP Ping</string>
+    <string name="http_ping_description">Mengukur latensi permintaan HTTP melalui tunnel VPN aktif selama terhubung.</string>
+    <string name="http_ping_url">URL HTTP Ping</string>
+    <string name="http_ping_default_url">https://clients3.google.com/generate_204</string>
+    <string name="http_ping_interval">Interval Ping (detik)</string>
+    <string name="http_ping_interval_description">Jeda antar permintaan HTTP Ping. Minimum 1 detik.</string>
+    <string name="http_ping_default_interval">10</string>
+    <string name="settings_subtitle">Personalisasi aplikasi dan atur utilitas tunnel global.</string>
+    <string name="appearance_description">Pilih bagaimana SSH Protocol mengikuti tema perangkat.</string>
+    <string name="language_description">Pilih bahasa yang digunakan di seluruh aplikasi.</string>
+    <string name="http_ping_url_description">Endpoint untuk mengukur latensi permintaan HTTP melalui tunnel VPN aktif.</string>
+    <string name="http_ping_behavior">Hanya berjalan saat tunnel terhubung. Kegagalan ping tidak memutus SSH atau VPN.</string>
+    <string name="seconds_short">dtk</string>
+    <string name="exit_confirmation_message">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="action_exit">Keluar</string>
+    <string name="tls_version">Versi TLS</string>
+
+    <string-array name="tls_version_labels">
+        <item>Default</item>
+        <item>TLS 1.0</item>
+        <item>TLS 1.1</item>
+        <item>TLS 1.2</item>
+        <item>TLS 1.3</item>
+    </string-array>
+
+    <string-array name="tls_version_values">
+        <item>default</item>
+        <item>tls_1_0</item>
+        <item>tls_1_1</item>
+        <item>tls_1_2</item>
+        <item>tls_1_3</item>
+    </string-array>
+    <string name="home_duration">Durasi</string>
+    <string name="home_duration_zero">00:00:00</string>
+    <string name="home_network">Jaringan</string>
+    <string name="home_network_wifi">Wi-Fi</string>
+    <string name="home_network_cellular">Seluler</string>
+    <string name="home_network_ethernet">Ethernet</string>
+    <string name="home_network_other">Lainnya</string>
+    <string name="home_device_ip">IP Perangkat</string>
+    <string name="home_ip_unavailable">—</string>
+    <string name="home_protocol">Protokol</string>
+    <string name="home_protocol_ssh">SSH</string>
+
+    <string name="profile_imported">Profil berhasil diimpor</string>
+    <string name="unable_import_profile">Tidak dapat mengimpor profil</string>
+
+    <string name="crash_report_title">Kesalahan aplikasi</string>
+    <string name="crash_report_clip_label">Laporan crash SSHProtocol</string>
+    <string name="crash_report_copied">Laporan crash disalin</string>
+    <string name="action_copy">Salin</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_share">Bagikan</string>
+    <string name="share_profile">Bagikan profil</string>
+    <string name="unable_share_profile">Tidak dapat membagikan profil</string>
+    <string name="profile_import_busy">Hentikan tunnel sebelum mengimpor profil</string>
+    <string name="profile_proxy_enabled">Aktifkan proxy</string>
+    <string name="profiles_empty">Belum ada profil</string>
+    <string name="profile_unnamed">Profil tanpa nama</string>
+    <string name="about_title">Tentang</string>
+    <string name="about_summary">Informasi aplikasi</string>
+    <string name="about_app_description">VPN Protocol menyediakan tunnel VPN Android berbasis SSH dengan dukungan transport, payload, proxy, dan TLS/SNI yang dapat dikonfigurasi.</string>
+    <string name="settings_about">Tentang</string>
+    <string name="settings_about_description">Informasi aplikasi dan versi</string>
+    <string name="profiles_search_hint">Cari profil</string>
+    <string name="profiles_list_view">Tampilan daftar</string>
+    <string name="profiles_grid_view">Tampilan kisi</string>
+    <string name="profile_duplicate">Duplikat</string>
+    <string name="profile_delete">Hapus</string>
+    <string name="profile_set_active">Jadikan aktif</string>
+    <string name="profile_active">Aktif</string>
+    <string name="profile_empty_title">Belum ada profil</string>
+    <string name="profile_empty_message">Buat profil untuk mengonfigurasi tunnel SSH.</string>
+    <string name="profile_create">Buat profil</string>
+    <string name="profile_duplicated">Profil berhasil diduplikat</string>
+    <string name="profile_delete_confirm">Hapus profil "%1$s"?</string>
+    <string name="profile_copy_name">Salinan %1$s</string>
+    <string name="profile_add_favorite">Tambahkan ke favorit</string>
+    <string name="profile_remove_favorite">Hapus dari favorit</string>
+    <string name="profile_pin">Sematkan profil</string>
+    <string name="profile_unpin">Lepas sematan profil</string>
+    <string name="profile_more_actions">Tindakan profil lainnya</string>
+    <string name="profile_more_actions_symbol">⋮</string>
+    <string name="profile_import">Impor</string>
+    <string name="profile_export">Ekspor .vp</string>
+    <string name="profile_export_failed">Tidak dapat mengekspor profil</string>
+    <string name="profiles_import_result">%1$d profil berhasil diimpor; %2$d gagal</string>
+    <plurals name="profiles_imported_count">
+        <item quantity="other">%d profil berhasil diimpor</item>
+    </plurals>
+    <string name="profiles_filter_all">Semua</string>
+    <string name="profiles_filter_favorite">Favorit</string>
+    <string name="profiles_filter_pinned">Disematkan</string>
+    <string name="profiles_filter_active">Aktif</string>
+</resources>

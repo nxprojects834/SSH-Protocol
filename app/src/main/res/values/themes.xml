@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.SSHProtocol" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+package com.mdevz.sp.core.model
+
+enum class TunnelState {
+    DISCONNECTED,
+    CONNECTING_TCP,
+    CONNECTING_TLS,
+    SENDING_PAYLOAD,
+    CONNECTING_SSH,
+    VERIFYING_HOST_KEY,
+    AUTHENTICATING,
+    STARTING_SOCKS,
+    STARTING_VPN,
+    CONNECTED,
+    RECONNECTING,
+    STOPPING,
+    ERROR
+}

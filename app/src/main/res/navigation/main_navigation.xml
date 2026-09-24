@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.mdevz.sp.ui.home.HomeFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/menu_profiles"
+        android:name="com.mdevz.sp.ui.profiles.ProfilesFragment"
+        android:label="@string/nav_profiles">
+        <action
+            android:id="@+id/action_profiles_to_editor"
+            app:destination="@id/profileEditorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menu_logs"
+        android:name="com.mdevz.sp.ui.logs.LogsFragment"
+        android:label="@string/nav_logs" />
+
+    <fragment
+        android:id="@+id/menu_settings"
+        android:name="com.mdevz.sp.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings">
+        <action
+            android:id="@+id/action_settings_to_about"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileEditorFragment"
+        android:name="com.mdevz.sp.ui.editor.ProfileEditorFragment"
+        android:label="@string/nav_profiles">
+        <argument
+            android:name="profile_id"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.mdevz.sp.ui.about.AboutFragment"
+        android:label="@string/about_title" />
+
+</navigation>
